@@ -99,3 +99,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#exlcluding huge checkpoint files for trained models
+checkpoint_densenet161.pth
+checkpoint_vgg16.pth
+
+#excluding notebooks
+Image Classifier Project Template.ipynb
+Image Classifier Project.ipynb
